@@ -1,0 +1,71 @@
+body{
+    font-family: 'Cairo', sans-serif;
+    margin: 0%;
+    padding:0%;
+  }
+/* قم بإخفاء العنصر aside عندما يكون عرض الشاشة أقل من 768px */
+@media screen and (max-width: 768px) {
+
+
+div#Myh2{
+margin-top: 12%;
+}
+aside {
+display: none;
+}
+nav {
+display: block;
+}
+#Myh2{
+margin-right: 3%;
+}
+#h{
+margin-left: 3%;
+}
+#fortable{
+margin-right: 0%;
+width: 30%;
+margin-bottom: 10%;
+}
+#mydiv{
+width: 20rem;
+margin-right: 1.9rem;
+margin-left: 1rem;
+margin-bottom: 1rem;
+/* background-color: brown; */
+}
+}
+
+/* قم بإظهار العنصر aside عندما يكون عرض الشاشة أكبر من 768px */
+@media screen and (min-width: 769px) {
+main{
+width: 82%;
+margin-right:18%
+}
+nav {
+display: none;
+}
+aside {
+display: block;
+}
+.flex-container {
+flex-direction: column;
+}
+#mydiv{
+width: 45%;
+margin-right: 3%;
+}
+
+}
+
+.flex-container {
+display: flex;
+flex-direction: row;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+.flex-container {
+flex-direction: column;
+}
+}

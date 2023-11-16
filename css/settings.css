@@ -1,0 +1,48 @@
+body{
+    font-family: 'Cairo', sans-serif;
+    margin: 0%;
+    padding:0%;
+  }
+      /* قم بإخفاء العنصر aside عندما يكون عرض الشاشة أقل من 768px */
+@media screen and (max-width: 768px) {
+  div#Myh2{
+    margin-top: 12%;
+  }
+  aside {
+    display: none;
+  }
+  nav {
+    display: block;
+  }
+  #Myh2{
+    margin-right: 3%;
+  }
+  #h{
+    margin-left: 3%;
+  }
+  #fortable{
+    margin-right: 3%;
+    width: 93%;
+    margin-bottom: 2%;
+  }
+  #updateAdmin{
+    margin-right: 3%;
+    width: 93%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+  }
+}
+
+/* قم بإظهار العنصر aside عندما يكون عرض الشاشة أكبر من 768px */
+@media screen and (min-width: 769px) {
+  main{
+   width: 82%;
+   margin-right:18%
+  }
+  nav {
+    display: none;
+  }
+  aside {
+    display: block;
+  }
+}
