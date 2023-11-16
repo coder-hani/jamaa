@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+    <title>WebSite</title>
+</head>
+<body dir="rtl">
+    <main class="bg-blue-50 h-screen">
+
+
+    <h2 class="text-blue-600 font-medium text-2xl pt-20 mb-4 text-center">
+        منصة الجامع
+    </h2>
+
+        <div class="mx-auto p-2 max-w-md">
+            <!-- Modal content -->
+            <div class=" bg-white rounded-lg shadow dark:bg-gray-700">
+                <div class="px-6 py-6 lg:px-8">
+                    <center class="my-4 mx-8">
+                        <h3 class="mb-4 text-xl font-bold text-blue-900 dark:text-white"> تسجيل الدخول </h3>
+                        <div class="text-sm font-medium text-gray-500 dark:text-gray-300">
+                            لا تمتلك حساب في منصة الجامع؟ 
+                            <a href="SignIn.html" class="text-blue-700 hover:underline dark:text-blue-500"> 
+                            قم بإرسال طلب للتسجيل الآن       
+                            </a>
+                        </div>
+                    </center>
+                    <form class="space-y-64" action="">
+                        <div class="relative z-0 w-full mb-6 group">
+                            <input type="email" name="floating_email" id="floating_email" class="my-8 block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" اكتب اسم المستخدم هنا" required />
+                            <label  for="floating_email" class="font-bold text-lg  absolute dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-1 -right-2 text-blue-900 dark:text-blue-500 scale-100 translate-y-0 scale-75 translate-y-6">اسم المستخدم</label>
+                        </div>
+                        <div class="relative z-0 w-full mb-6 group">
+                            <input type="password" name="floating_password" id="floating_password" class="my-8 block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" كلمة المرور" required />
+                            <label for="floating_password" class="font-bold text-lg absolute dark:text-gray-400 duration-300 transform -translate-y-6 scale-75  top-1 -right-2 text-blue-900 dark:text-blue-500 scale-100 translate-y-0 scale-75 translate-y-6"> كلمة المرور</label>
+                        </div>
+
+                        <div class="flex justify-between">
+                            <div class="flex items-start">
+                                <div class="flex items-center h-5">
+                                    <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-600 dark:border-gray-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required>
+                                </div>
+                                <label for="remember" class="ml-2 text-sm font-medium text-gray-900 px-3 dark:text-gray-300"> تذكرني </label>
+                            </div>
+                            <a href="#" class="font-medium text-sm text-blue-700 hover:underline dark:text-blue-500"> 
+                              نسيت كلمة المرور؟
+                            </a>
+                        </div>
+
+                        <button type="submit" class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mt-10 mb-1 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            تسجيل الدخول
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+     
+</main>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+    <title>  منصة الجامع</title>
+</head>
+<body dir="rtl">
+    <main class="bg-blue-50 h-full">
+
+
+    <h2 class="text-blue-600 font-medium text-2xl pt-20 mb-4 text-center">
+        منصة الجامع
+    </h2>
+
+        <div class="mx-auto p-2 max-w-md">
+            <!-- Modal content -->
+            <div class=" bg-white rounded-lg shadow dark:bg-gray-700">
+                <div class="px-6 py-6 lg:px-8">
+                    <center class="my-4 mx-8">
+                        <h3 class="mb-4 text-xl font-bold text-blue-900 dark:text-white"> قم بإنشاء حساب الآن</h3>
+                        <div class="text-sm font-medium text-gray-500 dark:text-gray-300">
+                            لديك حساب في منصة الجامع؟ 
+                            <a href="index.html" class="text-blue-700 hover:underline dark:text-blue-500"> 
+                            قم بتسجيل الدخول       
+                            </a>
+                        </div>
+                    </center>
+                    <form class="space-y-64" action="#">
+                        <div class="relative z-0 w-full mb-6 group">
+                            <input type="text" name="floating_fullname" id="floating_fullname" class="my-8 block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" اكتب اسم المستخدم هنا" required />
+                            <label  for="floating_fullname" class="font-bold text-lg  absolute dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-1 -right-2 text-blue-900 dark:text-blue-500 scale-100 translate-y-0 scale-75 translate-y-6" style="right: -4%;">اسم الرباعي</label>
+                        </div>
+                        <div class="relative z-0 w-full mb-6 group">
+                            <input type="password" name="floating_password" id="floating_password" class="my-8 block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" كلمة المرور" required />
+                            <label for="floating_password" class="font-bold text-lg absolute dark:text-gray-400 duration-300 transform -translate-y-6 scale-75  top-1 -right-2 text-blue-900 dark:text-blue-500 scale-100 translate-y-0 scale-75 translate-y-6" style="right: -4%;"> كلمة المرور</label>
+                        </div>
+                      
+                        <div class="relative z-0 w-full mb-6 group " style="margin-top: 11%;">
+                        <label for="countries" class="font-bold text-lg  absolute dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 -top-2 -right-11 text-blue-900 dark:text-blue-500 scale-100 translate-y-0 scale-75 translate-y-6"   style="right: -4.9%;">المرحلة الدراسية</label>
+                        
+                        <select id="countries" class="bg-gray-50  border border-blue-300 text-blue-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" style="width: 103%;position: relative; right:-2%; margin-top: 9%" >
+                            <option class="bg-sky-500 hover:bg-sky-700">ابتدائي</option>
+                            <option>اعدادي</option>
+                            <option>ثانوي</option>
+                          </select>
+                        </div>
+                      
+                        <div class="relative z-0 w-full mb-6 group">
+                            <input type="number" min="2005" max="2015" step="1" name="floating_number" id="floating_email" class="my-8 block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" اكتب اسم المستخدم هنا" required />
+                            <label  for="floating_email" class="font-bold text-lg  absolute dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-1 -right-2 text-blue-900 dark:text-blue-500 scale-100 translate-y-0 scale-75 translate-y-6" style="right: -3%;"> سنة الميلاد</label>
+                        </div>
+                        <div class="relative z-0 w-full mb-6 group">
+                            <input type="text" name="floating_text" id="floating_email" class="my-8 block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" اكتب اسم المستخدم هنا" required />
+                            <label  for="floating_email" class="font-bold text-lg  absolute dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-1 -right-2 text-blue-900 dark:text-blue-500 scale-100 translate-y-0 scale-75 translate-y-6"  style="right: -4%;"> السكن في حي</label>
+                        </div>
+                        <div class="relative z-0 w-full mb-6 group">
+                            <input type="text" name="floating_text" id="floating_email" class="my-8 block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" اكتب اسم المستخدم هنا" required />
+                            <label  for="floating_email" class="font-bold text-lg  absolute dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-1 -right-2 text-blue-900 dark:text-blue-500 scale-100 translate-y-0 scale-75 translate-y-6">المدرسة</label>
+                        </div>
+                        <div class="relative z-0 w-full mb-6 group">
+                            <input type="text" name="floating_text" id="floating_email" class="my-8 block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" اكتب اسم المستخدم هنا" required />
+                            <label   for="floating_email" class="font-bold text-lg  absolute dark:text-gray-400  transform -translate-y-6  top-1  text-blue-900 dark:text-blue-500 scale-100 translate-y-0 scale-75 translate-y-6"  style="right: -7.4%;">اسم ولي الأمر إذا لم يوجد الأب</label>
+                        </div>
+                        <div class="relative z-0 w-full mb-6 group">
+                            <input type="text" name="floating_number" id="floating_email" class="my-8 block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" اكتب اسم المستخدم هنا" required />
+                            <label  for="floating_email" class="font-bold text-lg  absolute dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-1 -right-2 text-blue-900 dark:text-blue-500 scale-100 translate-y-0 scale-75 translate-y-6">صلة القرابة</label>
+                        </div>
+                        <div class="relative z-0 w-full mb-6 group">
+                            <input type="number" name="floating_tel" id="floating_tel" class="my-8 block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" اكتب اسم المستخدم هنا" required />
+                            <label  for="floating_tel" class="font-bold text-lg  absolute dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-1 -right-2 text-blue-900 dark:text-blue-500 scale-100 translate-y-0 scale-75 translate-y-6"   style="right: -4%;">رقم جوال ولي الأمر</label>
+                        </div>
+                        <div class="relative z-0 w-full mb-6 group">
+                            <input type="number" name="floating_number"  id="floating_idstudent" min="1000" max="2000" class="my-8 block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" اكتب اسم المستخدم هنا" required />
+                            <label  for="floating_idstudent" class="font-bold text-lg  absolute dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-1 -right-2 text-blue-900 dark:text-blue-500 scale-100 translate-y-0 scale-75 translate-y-6"   style="right: -4%;">رقم هوية الطالب</label>
+                        </div>
+                        <div class="flex justify-between">
+                            <div class="flex items-start">
+                                <div class="flex items-center h-5">
+                                    <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-blue-500 rounded bg-green-50 focus:ring-3 focus:ring-green-600 dark:bg-gray-600 dark:border-gray-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required>
+                                </div>
+                                <label for="remember"  class="ml-2 text-sm font-medium text-blue-900 px-3 dark:text-gray-300"> أتعهد أنا ولي أمر الطالب بإن أكون متابعا لسير دراسة ابني داخل الحلفة,و متعاونا مع إدارة الحلفة في كل ما يخص ابني,دراسة و سلوكا وانتظاما </label>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mt-10 mb-1 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                          إنشاء حساب
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+</main>
+</body>
+</html>
